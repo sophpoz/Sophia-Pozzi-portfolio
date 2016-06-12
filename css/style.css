@@ -1,0 +1,101 @@
+html {
+	box-sizing: border-box;
+}
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+font-weight:300;
+	font-size: 16px;
+}
+.top-navigation {
+	width: 100%;
+	position: fixed;
+	background-color: #DBCAF5;
+	text-align: center;
+	}
+ul {
+	margin:0;
+	padding:0;
+	display:block;
+	list-style-type: none;
+}
+.content {
+margin: 0 auto;
+padding:0;
+}
+li {
+	display:inline-block;
+}
+.personal, .work{
+	width:20%;
+	cursor:pointer;
+}
+.personal:hover, .work:hover{
+	color:#1c5b20;
+}
+#intro {
+	padding-top:-1em;
+}
+#intro, #portfolio, #aboutme, #social {
+	padding:2em;
+	text-align:center;
+	margin: 0 auto;
+}
+p {
+	letter-spacing: 0.1em;
+}
+.intro {
+	font-size:1.5em;
+}
+h1{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	font-size:1.5em;
+	text-transform: uppercase;
+
+}
+.karma, .codepen, .times {
+	width:33%;
+	text-align: center;
+}
+.networks {
+	text-align:center;
+}
+footer {
+	font-size: 0.8em;
+	text-align: center;
+}
+.me {
+	padding:2em 10em;
+}
+a{
+	text-decoration: none;
+	color:black;
+	cursor: pointer;
+}
+ul > a:hover {
+	color: #DBCAF5;
+	}
+#social {
+	background-color: 	#a6e3aa;
+}
+#intro {
+	background-color:#1c5b20;
+}
+
+#aboutme {
+	background-color: #6fb574;
+}
+#portfolio {
+	background-color: #39823e;
+}
+@media only screen and (max-width: 700px) {
+  #intro, #portfolio, #social, #footer {
+    font-size:1.5em;
+    width:100%;
+  }
+}
