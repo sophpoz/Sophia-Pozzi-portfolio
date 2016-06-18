@@ -5,6 +5,7 @@ html {
 	box-sizing: inherit;
 }
 body {
+margin:0;
 font-family: 'Open Sans', sans-serif;
 font-weight:300;
 	font-size: 16px;
@@ -31,9 +32,21 @@ li {
 .personal, .work{
 	width:20%;
 	cursor:pointer;
+	float:left;
+	margin-top:1.6em;
+}
+.myname {
+	float:left;
+	width:20%;
 }
 .personal:hover, .work:hover{
 	color:#1c5b20;
+}
+.leaves {
+	background-image:url('../img/IMG_06091.jpg');
+	height:500px;
+	background-size: cover;
+	background-position: center;
 }
 #intro {
 	padding-top:-1em;
@@ -58,7 +71,10 @@ h1{
 	text-transform: uppercase;
 
 }
-.karma, .codepen, .times {
+.portfolioitems img {
+	width:100%;
+}
+.portfolioitems li {
 	width:33%;
 	text-align: center;
 }
@@ -97,5 +113,20 @@ ul > a:hover {
   #intro, #portfolio, #social, #footer {
     font-size:1.5em;
     width:100%;
+    padding:1em;
   }
+  .karma, .codepen, .times {
+	width:100%;
+	text-align: center;
+}
+.myname {
+	display:block;
+	/*float:left;*/
+}
+.me {
+	padding:0;
+}
+.work {
+	padding-left:2em;
+}
 }
